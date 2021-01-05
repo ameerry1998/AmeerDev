@@ -29,7 +29,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-	#container {
+	#banner-typing-text{
+		width: 400px;
+		color: #4acaa8;
+		font-size: 20px;
+	}
+
+	/* #container {
 		text-align: center;
 	}
 
@@ -62,7 +68,7 @@ footer, header, hgroup, menu, nav, section {
 		50% {
 			background-color: orange;
 		}
-	}
+	} */
 
 
 body {

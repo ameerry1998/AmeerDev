@@ -24,7 +24,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
+						<li><a href="#two">Things I've built</a></li>
 						<li><a href="#three">A Few Accomplishments</a></li>
 						<li><a href="#four">Contact</a></li>
 					</ul>
@@ -33,9 +33,9 @@
 					<ul class="icons">
 						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="http://instagram.com/Ameerry" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/ameerry1998" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:ameerrayan@brandeis.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -50,7 +50,9 @@
 							<section id="one">
 								<div class="image main" data-position="center">
 									<img src="images/banner.jpg" alt="" />
-									<div class="align-items-center "id="text" style="  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 20px;"></div><div id="cursor"></div>
+
+											<h1 class="major" id="banner-typing-text" style="position: absolute; top: 50%; left: 53%; transform: translate(-50%, -50%); "></h1>
+
 								</div>
 								<div class="container">
 									<header class="major">
@@ -72,7 +74,7 @@
 									<h3>Things I've built</h3>
 									<!--<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>-->
 									<ul class="feature-icons">
-										<li class="icon solid fa-code">Hosting Own blog</li>
+										<li class="icon solid fa-code">Django Blog hosted on AWS</li>
 										<li class="icon solid fa-cloud-sun"><a href="https://github.com/ameerry1998/climate_model/blob/master/climate_model.py">Climate model</a></li>
 										<li class="icon solid fa-apple-alt">Multithreaded Shell</li>
 										<li class="icon solid fa-bug">Bug Tracker Website</li>
@@ -480,6 +482,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- Scripts -->
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -487,6 +490,33 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- Script for the banner typing effect -->
+			<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+			<script>
+					new TypeIt('#banner-typing-text',{speed:90, loop: true})
+					.type("I'm a Software Developer")
+					.pause(700)
+					.move(-10)
+					.delete(8)
+					.type("React")
+					.pause(800)
+					.move(-5)
+					.type("Django and ")
+					.pause(2000)
+					.move(5)
+					.delete(16)
+					.type("Python ")
+					.pause(400)
+					.type("and Java")
+					.pause(2000)
+					.move(10)
+					.delete(25)
+					.type(" Computer Science Student")
+					.pause(1600)
+					.delete(24)
+					.type(" Business and Psych Minor")
+					.go();
+			</script>
 
 	</body>
 </html>
