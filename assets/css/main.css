@@ -29,6 +29,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	#container {
+		text-align: center;
+	}
+
+	#banner_title{
+		color: #4acaa8;
+		font-size: 2.5 em;
+	}
+
+	#text {
+		display: inline-block;
+		vertical-align: middle;
+		letter-spacing: 2px;
+		color: #4acaa8;
+		font-size: 2em;
+	}
+
+	#cursor {
+		display: inline-block;
+		vertical-align: middle;
+		width: 3px;
+		height: 50px;
+		background-color: orange;
+		animation: blink .75s step-end infinite;
+	}
+
+	@keyframes blink {
+		from, to {
+			background-color: transparent
+		}
+		50% {
+			background-color: orange;
+		}
+	}
+
+
 body {
 	line-height: 1;
 }
