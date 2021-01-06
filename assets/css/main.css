@@ -29,10 +29,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
 	#banner-typing-text{
-		width: 400px;
+		width: 100%;
 		color: #4acaa8;
-		font-size: 20px;
+		font-size: 2em;
+		font-weight: 700;
+		margin-top: -0.75em;
+
 	}
 
 
