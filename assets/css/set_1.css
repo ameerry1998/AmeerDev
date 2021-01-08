@@ -104,7 +104,7 @@
 	stroke: #f2625a;
 	stroke-width: 3;
 	stroke-dasharray: 422, 0;
-	transition: all 450ms linear 0s;	
+	transition: all 450ms linear 0s;
 }
 .Vbtn-3:hover {
 	background: rgba(225, 51, 45, 0);
